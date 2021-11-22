@@ -1783,3 +1783,375 @@ outline: 3px solid #83B3D3;
   padding-right: 37px;
   width:160px;
 }
+.popover {
+  position: absolute;
+  top: 71;
+  right: -183px;
+  z-index: 1;
+  box-sizing: border-box;
+  width: 400px;
+  
+  font-family: "PT Sans", sans-serif;
+  color: #000000;
+  background-color: #FFFFFF;
+  min-height: 186px;
+  box-shadow: 0 18px 40px rgba(79, 70, 60, 0.16);
+  border-radius: 20px;
+  display: none;
+}
+.navigation-item {
+  position: relative;
+}
+.popover-hotel-card{
+  display:flex;
+  align-items: center;
+}
+.popover-info{
+  display: flex;
+  flex-direction: column;
+}
+.popover-hotel-card-image{
+  border-radius: 50%;
+}
+.popover-hotel-img-link{
+  width: 48px;
+  margin-right: 17px;
+}
+.popover-hotel-card + .popover-hotel-card{
+  margin-top: 25px;
+}
+.popover-hotel-card-title{
+  font-family:  "PT Sans", sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+text-decoration:none;
+color: #000000;
+
+}
+.popover-Type-hotel{
+  font-family: "PT Sans", sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+
+/* or 250% */
+
+
+
+/* basic/dark */
+
+color: #333333;
+
+}
+.popover-delete{
+  margin-left:auto;
+  background: none;
+}
+.button-popover{
+  width: 100%;
+  display:inline-block;
+  padding: 0;
+  border-radius: 0px 0px 20px 20px;
+  background: #756257;
+  font-family: "PT Sans", sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 21px;
+display: block;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+padding:20px;
+
+/* basic/white */
+
+color: #FFFFFF;
+}
+.popover-hotel-lists{
+  padding: 25px;
+}
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(242, 242, 242, 0.8);
+  
+}
+
+
+.modal {
+  position: relative;
+  margin: auto;
+  padding: 70px;
+  background-color: #FFFFFF;
+  
+  border-radius: 30px;
+  
+}
+.modal-close-button{
+  background: none;
+    cursor: pointer;
+    padding:20px;
+    border-radius: 50px;
+    background: #F2F2F2;
+  } 
+.modal-title{
+  font-family: "PT Sans", sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 40px;
+/* or 133% */
+
+text-transform: uppercase;
+
+/* basic/black */
+
+color: #000000;
+}
+.title-exit-modal{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 54px;
+}
+.date-span-modal{
+  font-family: "PT Sans", sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 40px;
+/* or 222% */
+
+/* basic/black */
+margin-right: 56px;
+color: #000000;
+
+}
+.race-date,
+.exit-date{
+  padding-left: 19px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  padding-right:170px;
+  background: #F2F2F2;
+border-radius: 4px;
+font-family: "PT Sans", sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 40px;
+border:0;
+
+}
+.calendar-button-race{
+  position: absolute;
+  padding:18px;
+  background-image:url(../img/date.svg) ;
+  background-position: center ;
+  background-repeat: no-repeat;
+  align-items: center;
+  left:644px;
+  background-color:#F2F2F2;
+  top:186px;
+}
+.calendar-button-exit{
+  position: absolute;
+  padding:18px;
+  background-image:url(../img/date.svg) ;
+  background-position: center ;
+  background-repeat: no-repeat;
+  align-items: center;
+  left:644px;
+  top:287px;
+  background-color:#F2F2F2;
+  
+}
+.modal-flex{
+  display:flex;
+  justify-content:space-between ;
+  margin-top:11px;
+  align-items: center;
+}
+.adult,
+.children{
+  display:flex;
+  
+}
+
+.plus-btn{
+  padding-top: 29px;
+  padding-bottom: 29px;
+  padding:19px;
+  background: #F2F2F2;
+  display: block;
+  
+}
+.adult-input{
+  width: 34px;
+  background: #F2F2F2;
+  font-family: "PT Sans", sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 40px;
+/* or 222% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+/* basic/black */
+
+color: #000000;
+border:none;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+.span-exit{
+  margin-right: 48px;
+}
+.adults{
+  font-family: "PT Sans", sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 40px;
+/* or 222% */
+
+
+
+/* basic/black */
+
+color: #000000;
+}
+.search-btn{
+  background: #83B3D3;
+border-radius: 10px;
+width: 575px;
+display: block;
+margin:0 auto;
+text-align: center;
+font-family: "PT Sans", sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 40px;
+/* or 200% */
+
+
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+/* basic/white */
+
+color: #FFFFFF;
+margin-top: 40px;
+margin-bottom: 30px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.minus{
+  background-image: url(../img/minus.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 4px 0 0 4px;
+}
+.plus{
+  background-image: url(../img/plus.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius:0 4px 4px 0;
+}
+.race-span{
+  width:420px;
+  font-family: "PT Sans", sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 40px;
+/* or 250% */
+
+display: flex;
+align-items: center;
+margin-left: 173px;
+/* status/error */
+
+color: #FF5757;
+margin-bottom: 11px;
+}
+.exit-span{
+  width:420px;
+  font-family: "PT Sans", sans-serif;  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 40px;
+  /* or 250% */
+  
+  display: flex;
+  align-items: center;
+  
+  /* basic/dark */
+  margin-left: 173px;
+  color: #333333;
+  margin-bottom: 11px;
+}
+.adults-informaton{
+  position: absolute;
+  background: #83B3D3;
+  padding: 12px;
+  border-radius: 50%;
+  background-image: url(../img/info.svg);
+  background-repeat: no-repeat;
+  background-position:center;
+  right: 229px;
+}
+
+.information-popap{
+  position: absolute;
+  max-width: 227px;
+  right: 119px;
+    bottom: 85px;
+
+/* basic/dark */
+
+background: #333333;
+box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+border-radius: 10px;
+font-family: "PT Sans", sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+/* or 125% */
+
+display: flex;
+align-items: center;
+
+/* basic/white */
+
+color: #FFFFFF;
+padding-top: 15px;
+padding-bottom:18px ;
+padding-left: 22px;
+padding-right: 18px;
+}
+.information-popap::before{
+position: absolute;
+width: 19px;
+height: 19px;
+background: #333333;
+top:-100px;
+content: "";
+Transform:rotate(45deg);
+
+top: -5px;
+right: 114px;
+
+}
