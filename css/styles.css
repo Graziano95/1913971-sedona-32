@@ -62,8 +62,10 @@ body {
     
     list-style-type: none;
     flex-wrap: wrap;
-    
-    
+    list-style-type: none;
+    padding: 0;
+    border:0;
+    margin: 0;
   }
   .navigation-list .navigation-user {
     display: flex;
@@ -269,7 +271,7 @@ margin-bottom: 54px;
 .div-subscribe{
   background-image: url("../img/background-subscribe.jpg" );
   width: 1200px;
-  
+  background-color: red;
   text-align: center;
 }
 .subscribe-title{
@@ -370,12 +372,16 @@ color:#FFFFFF;
   overflow: hidden;
 }
 .div-search{
+
+}
+.hotel-intro{
   background-image: url("../img/catalog-background.jpg" );
   background-repeat: no-repeat;
-  
-  
   object-fit:cover;
+  background-color: red;
+  max-height: 407px;
 }
+
 .inner-header-title{
 font-family: "PT Sans", sans-serif;
 font-style: normal;
@@ -428,6 +434,10 @@ border-radius: 4px;
   color: #FFFFFF;
   outline:none;
   opacity: 0.3;
+}
+.catalog-filter{
+  display: flex;
+  justify-content: space-between;
 }
 .catalog-filter-title{
 font-family: "PT Sans", sans-serif;
@@ -841,7 +851,7 @@ margin: 0 auto;
   margin-right: 67px;
 }
 .type-hotel{
-  width:400px;
+  /* width:400px; */
   margin-right: 90px;
 }
 .cost{
@@ -878,7 +888,8 @@ font-weight: bold;
 font-size: 30px;
 line-height: 39px;
 /* identical to box height */
-
+margin-bottom: 0;
+margin-top: 0;
 
 text-transform: uppercase;
 
@@ -914,51 +925,7 @@ body {
   margin: 0 auto;
   }
   
-  h1 {
-  margin: 0;
-  }
-  
-  h2 {
-  margin: 0;
-  }
-  
-  h3 {
-  margin: 0;
-  border:none;
-  outline:none
-  }
-  
-  h4 {
-  margin: 0;
-  }
-  
-  img {
-  width: 100%;
-  display: block
-  }
-  
-  a {
-  margin: 0;
-  text-decoration: none;
-  border:0;
-  }
-  
-  ul {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-  }
-  
-  li {
-  list-style-type: none;
-  padding: 0;
-  border:0;
-  }
-  
-  p {
-  margin: 0;
-  }
-  
+
   .button {
   outline: none;
   border: none;
@@ -1545,7 +1512,7 @@ opacity: 0.3;
 }
 .span-reset{
   margin:0 auto;
-  margin-bottom: 69px;
+  margin-bottom: 67px;
   text-transform: none;
 
 }
@@ -1836,6 +1803,7 @@ outline: 3px solid #83B3D3;
   width:160px;
 }
 .popover {
+  display: none;
   position: absolute;
   top: 71;
   right: -183px;
@@ -1849,7 +1817,7 @@ outline: 3px solid #83B3D3;
   min-height: 186px;
   box-shadow: 0 18px 40px rgba(79, 70, 60, 0.16);
   border-radius: 20px;
-  display: none;
+ 
 }
 .navigation-item {
   position: relative;
